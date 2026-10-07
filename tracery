@@ -125,14 +125,50 @@ Enter credits or author's statement here.
         </div>
     <script> /* In the var immediately below, copy-paste your Tracery/CBDQ JSON between the {} brackets */
     var obj = {
-    "origin": [
-        "This is a generated text #topic#",
-        "This engine will randomly pair your #family# with a #pet#"
-    ],
-    "topic": ["about your #family#", "about your #symptom#", "about your #pet#"],
-    "family": ["mother", "father", "son", "daughter", "child"],
-    "symptom": ["cough", "fever", "allergies"],
-    "pet": ["dog", "cat", "gerbil", "lizard"]
+  "origin": [
+     "#technology# can #increase# the amount of #resource# as more companies and individuals adopt the use of AI.",
+    "The use of #solutions# can #reduce# the bad effects caused by #technology#"
+  ],
+
+  "technology": [
+    "AI Training",
+    "AI models",
+    "cloud compute",
+    "Frontier LLMs",
+    "Data centers"
+  ],
+
+  "increase": [
+    "increase",
+    "expand",
+    "strain",
+    "consume more of",
+    "drive"
+  ],
+
+ "resource": [
+    "grid load",
+    "water demand",
+    "electricty use",
+    "land consumption",
+    "power demand"
+  ],
+
+  "solutions": [
+    "Efficent Chips",
+    "Smaller Compute Facilities",
+    "Better cooling",
+    "Cleaner Power",
+    "better grids"
+  ],
+
+  "reduce": [
+    "lessen",
+    "limit",
+    "reduce",
+    "take away",
+    "shrink"
+  ]
 };
 
 function generateString(template) {
